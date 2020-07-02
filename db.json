@@ -1,32 +1,83 @@
 {
-   "UserID":"MSTU_Test1",
-   "type":"customer",
-   "name":"MSTU",
-   "householdData":{
+  "profile": {
+    "UserID":"MSTU_Test1",
+    "type":"customer",
+    "name":"MSTU"
+  },
+  
+  "householdData": {
       "HouseID":"h1",
       "deviceData":[
          {
-            "mac":"00:11:22:aa:bb:cc",
-            "timestamp":1591342583,
-            "current":0.02,
+            "id":"SC001122aabbcc",
+            "timestamp":1593533180,
+            "current(mA)":20,
             "event":1
          },
          {
             "mac":"00:11:22:aa:bb:cc",
-            "timestamp":1841943518,
+            "timestamp":1593533212,
             "current":0.05,
             "event":0
          },
          {
             "mac":"00:11:22:aa:bb:cc",
-            "timestamp":1948134730,
+            "timestamp":1593552731,
             "current":0.023,
             "event":1
          },
          {
             "mac":"00:11:22:aa:bb:cc",
-            "timestamp":2191342503,
+            "timestamp":1593552782,
             "current":0.04,
+            "event":0
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593565657,
+            "current":0.022,
+            "event":1
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593565730,
+            "current":0.03,
+            "event":0
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593577433,
+            "current":0.029,
+            "event":1
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593577453,
+            "current":0.03,
+            "event":0
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593590149,
+            "current":0.022,
+            "event":1
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593590205,
+            "current":0.03,
+            "event":0
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593601899,
+            "current":0.032,
+            "event":1
+         },
+         {
+            "mac":"00:11:22:aa:bb:cc",
+            "timestamp":1593601953,
+            "current":0.025,
             "event":0
          }
       ]
